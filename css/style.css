@@ -1,0 +1,61 @@
+/*font-family: 'Lato', sans-serif;
+font-family: 'Belleza', sans-serif;
+font-family: 'Source Code Pro', monospace;*/
+
+/* TEXT */
+p, a, ul, li {
+	font-family: 'Lato', sans-serif;
+}
+
+a {
+	color: #8D021F;
+}
+
+h1, h3 {
+	font-family: 'Belleza', sans-serif;
+}
+
+h1 {
+	color: #8D021F;
+	font-size: 50px;
+	margin-bottom: 0;
+}
+
+h3 {
+	color: #8C8C83;
+	font-size: 25px;
+}
+
+h2, h4, h5 {
+	font-family: 'Source Code Pro', monospace;
+}
+
+li {
+	list-style: none;
+}
+
+/* SECTIONS */
+body {
+	margin: 0 15%;
+	background-color: #E8E8E8;
+}
+
+/* Header */
+nav {
+	display: flex;
+	justify-content: space-between;
+}
+
+nav > a {
+	text-transform: uppercase;
+	color: black;
+}
+
+.description {
+	display: flex;
+	justify-content: space-between;
+}
+
+
+
+
