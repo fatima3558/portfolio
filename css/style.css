@@ -45,13 +45,13 @@ nav > a {
 	color: black;
 }
 
-/* Skills */
-
-#skills-list {
+/* Flexbox sections */
+#skills-list, .description {
 	display: flex;
 	justify-content: space-between;
 }
 
+/* Skills */
 #skills-list ul {
 	margin: 0;
 }
@@ -61,7 +61,25 @@ nav > a {
 }
 
 /* Projects */
+.description img {
+	max-width: 50%;
+	object-fit: contain;
+	padding: 0 1%;
+}
 
+.description p {
+	padding: 0 1%;
+}
 
 /* Interests */
 
+
+/* Footer */
+footer {
+	min-height: 10vh;
+}
+
+footer p {
+	text-align: center;
+	margin-bottom: 0;
+}
