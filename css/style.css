@@ -1,6 +1,5 @@
 /*font-family: 'Lato', sans-serif;
 font-family: 'Belleza', sans-serif;
-font-family: 'Source Code Pro', monospace;*/
 
 /* TEXT */
 p, a, ul, li {
@@ -11,7 +10,7 @@ a {
 	color: #8D021F;
 }
 
-h1, h3 {
+h1, h2, h3, h4 {
 	font-family: 'Belleza', sans-serif;
 }
 
@@ -21,15 +20,6 @@ h1 {
 	margin-bottom: 0;
 }
 
-h3 {
-	color: #8C8C83;
-	font-size: 25px;
-}
-
-h2, h4, h5 {
-	font-family: 'Source Code Pro', monospace;
-}
-
 li {
 	list-style: none;
 }
@@ -37,10 +27,14 @@ li {
 /* SECTIONS */
 body {
 	margin: 0 15%;
-	background-color: #EAEAEA;
+	background-color: #F7F7F7;
 }
 
-/* Header */
+div h2 {
+	margin-bottom: 10px;
+}
+
+/* Nav */
 nav {
 	display: flex;
 	justify-content: space-between;
@@ -51,11 +45,23 @@ nav > a {
 	color: black;
 }
 
-.description {
+/* Skills */
+
+#skills-list {
 	display: flex;
 	justify-content: space-between;
 }
 
+#skills-list ul {
+	margin: 0;
+}
+
+#skills-list ul > h4 {
+	margin: 10px 0;
+}
+
+/* Projects */
 
 
+/* Interests */
 

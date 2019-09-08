@@ -1,30 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link href="https://fonts.googleapis.com/css?family=Belleza|Lato|Source+Code+Pro&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Belleza|Lato&display=swap" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<title>Fatima Gomez</title>
 </head>
 <body>
-	<header>
-		<nav>
-			<a href="#about">About</a>
-			<a href="#projects">Projects</a>
-			<a href="#skills">Skills</a>
-			<a href="#interests">Interests</a>
-			<a href="#contact">Contact</a>
-		</nav>
-		<div class="header">
-			<h1>Fatima Gomez</h1>
-			<div class="description">
-				<h3>Software Engineer</h3>
-				<h3>Restorative Justice Advocate</h3> 
-				<h3>Musician and Writer</h3>
-			</div>
-		</div>
-	</header>
+	<nav>
+		<a href="#about">About</a>
+		<a href="#skills">Skills</a>
+		<a href="#projects">Projects</a>
+		<a href="#interests">Interests</a>
+		<a href="mailto:fatima3558@gmail.com">Contact</a>
+	</nav>
+	<h1>Hello, I'm Fatima Gomez</h1>
 	<div id="about">
-		<h2>About Me</h2>
 		<p>
 			I'm a software engineer, language lover, student of structures, and champion of empathy. 
 			<br/> <br/>
@@ -32,59 +22,17 @@
 			<br/> <br/>
 			My background in creative writing, teaching, and social work frame the way I relate to people and society. I practice listening with empathy, sitting in complexity, and finding common ground whenever possible.
 			<br/> <br/>
-			I aspire to build digital tools that help people live better lives. So, how about it? <a href="#contact">Want to build something together?</a>
+			I aspire to build digital tools that help people live better lives. So, how about it? 
+			<br/> <br/>
+			<a href="mailto:fatima3558@gmail.com">Let's build something together.</a>
 		</p>
-	</div>
-
-	<div id="projects" class="projects">
-		<h2>Projects</h2>
-		<ul class="projects">
-			<li>
-				<h4>Connect 4!</h4>
-				<p>
-					<span>Lesson 1</span>: Speak your interlocutor's language. <br/> <br/>
-
-					Patterns are patterns, and patterns usually have a mathematical basis for their pattern-y-ness. All you have to do is find the code that explains it in the most accurate and, hopefully, most elegant way possible.<br/> <br/>
-
-					While I was building my Connect4 app, I was having a difficult time writing logic for my app to understand what constitutes '4-in-a-row', or a win. Translating the idea of a 2-dimensional game board with different colors was proving very difficult - until I realized that there isn't any need for me to be bound to the ways in which humans usually conceptualize the game board. <br/> <br/>
-
-					Here's what I mean: to humans, the game board looks like a 6x7 grid with 2 different colors in play. When four colors are in a consecutive horizontal, vertical, or diagonal line, it's easy to see visually. But what if we didn't see a grid, but we imagined the board as a one-dimensional line of squares? And what if we said, instead of a 'horizontal win', we can identify that win by checking if there are four squares of the same color in this line that are the same distance away from each other? Now all we need is math - no eyes, no need to imagine 'space', and thankfully, no need to dive into those kinds of conversations with a computer.
-				</p>
-			</li>
-			<li>
-				<h4>Couch Potato</h4>
-				<p>
-					<span>Lesson 2</span>: Do what you love. <br/>
-					<span>Lesson 2a</span>: Find a way to help others appreciate what you love. <br/>
-					<span>Lesson 2b</span>: 'What you love' may not be just one thing.<br/> <br/>
-
-					While working on this full-stack MEN (Mongo, Express, Node.js) app, I took my first brief swim in the vast ocean that is back-end programming. And I loved it; or, more specifically, I loved building connections between the front end and the back end. <br/> <br/>
-
-					While building this app in a pair-programmed setting, I ended up in a position to help my partner understand some of the work we were doing in a more in-depth way. I found I really enjoyed diagramming routes and drawing pictures of how data gets sent back and forth from the browser to the server, from server to database, from database back to server, and from server back to browser. So many opportunities to speak the languages of more non-human friends! (see Lesson 1) <br/> <br/>
-
-					I also found I enjoy having conversations about code, talking about the problem solving, and finding ways of connecting humans friends to non-human friends. I enjoyed the act of translation, whether from browser HTTP request to database query, or from meta-level conceptualizations of how the internet works to the nitty gritty of the bug you’re trying to stomp out. <br/> <br/>
-				</p>
-			</li>
-			<li>
-				<h4>LitShare</h4>
-				<p>
-					<span>Lesson 3</span>: Be willing to question things you thought you knew. <br/> <br/>
-
-					For this project, I worked in a team of three and we split both apps up into routes that each of us was in charge of. I was able to lead the conversation in my team about the big picture of what our apps should do and in what order. These are conversations I feel strong in. But perhaps more importantly, for this project, I was able to tackle something I had much less of an understanding of: authorization and authentication. <br/> <br/>
-
-					This part of the project left me mentally breathless and wishing for more time to puzzle over Python and Flask. Having written code in JavaScript for the past two months, I found many of the ways in which apps work in JavaScript/Express don't translate directly into Python/Flask. It might be something simple: sometimes it felt like nearly everything I needed to do in Python outside of pure data manipulation required downloading an additional module. Or it can be more complex, like figuring out exactly how to make the app do certain things only if the user is logged in. <br/> <br/>
-
-					Ultimately, once I took a moment to open myself up to the possibility that any Python solution for a problem may not be even remotely like a JavaScript solution, I found myself much more able to appreciate Python and Flask for what they are.
-				</p>
-			</li>
-		</ul>
 	</div>
 
 	<div id="skills">
 		<h2>Skills</h2>
 		<div id="skills-list">
 			<ul> 
-				<h5>Front End:</h5>
+				<h4>Front End:</h4>
 				<li>HTML5</li>
 				<li>CSS3</li>
 				<li>JavaScript</li>
@@ -92,13 +40,13 @@
 				<li>React</li>
 			</ul>
 			<ul>
-				<h5>Back End:</h5>
+				<h4>Back End:</h4>
 				<li>Express</li>
 				<li>Node.js</li>
 				<li>MongoDB</li>
 			</ul>
 			<ul>
-				<h5>Interpersonal and Workflow:</h5>
+				<h4>Interpersonal and Workflow:</h4>
 				<li>Git</li>
 				<li>GitHub</li>
 				<li>Trello</li>
@@ -106,7 +54,7 @@
 				<li>Pair Programming</li>
 			</ul>
 			<ul>
-				<h5>Additional Dabbling:</h5>
+				<h4>Additional Dabbling:</h4>
 				<li>Python</li>
 				<li>Bootstrap</li>
 				<li>Flask</li>
@@ -115,6 +63,56 @@
 				<li>React Native</li>
 			</ul>
 		</div>
+	</div>
+
+	<div id="projects" class="projects">
+		<h2>Projects</h2>
+		<ul class="projects">
+			<li>
+				<h3>Connect 4!</h3>
+				<p>
+					<span>Lesson 1</span>: Speak your interlocutor's language. 
+					<br/> <br/>
+				</p>
+				<p>
+					Patterns are patterns, and patterns usually have a mathematical basis for their pattern-y-ness. All you have to do is find the code that explains it in the most accurate and, hopefully, most elegant way possible.<br/> <br/>
+
+					While I was building my Connect4 app, I was having a difficult time writing logic for my app to understand what constitutes '4-in-a-row', or a win. Translating the idea of a 2-dimensional game board with different colors was proving very difficult - until I realized that there isn't any need for me to be bound to the ways in which humans usually conceptualize the game board. <br/> <br/>
+
+					Here's what I mean: to humans, the game board looks like a 6x7 grid with 2 different colors in play. When four colors are in a consecutive horizontal, vertical, or diagonal line, it's easy to see visually. But what if we didn't see a grid, but we imagined the board as a one-dimensional line of squares? And what if we said, instead of a 'horizontal win', we can identify that win by checking if there are four squares of the same color in this line that are the same distance away from each other? Now all we need is math - no eyes, no need to imagine 'space', and thankfully, no need to dive into those kinds of conversations with a computer.
+				</p>
+			</li>
+			<li>
+				<h3>Couch Potato</h3>
+				<p>
+					<span>Lesson 2</span>: Do what you love. <br/>
+					<span>Lesson 2a</span>: Find a way to help others appreciate what you love. <br/>
+					<span>Lesson 2b</span>: 'What you love' may not be just one thing.
+					<br/> <br/>
+				</p>
+				<p>
+					While working on this full-stack MEN (Mongo, Express, Node.js) app, I took my first brief swim in the vast ocean that is back-end programming. And I loved it; or, more specifically, I loved building connections between the front end and the back end. <br/> <br/>
+
+					While building this app in a pair-programmed setting, I ended up in a position to help my partner understand some of the work we were doing in a more in-depth way. I found I really enjoyed diagramming routes and drawing pictures of how data gets sent back and forth from the browser to the server, from server to database, from database back to server, and from server back to browser. So many opportunities to speak the languages of more non-human friends! (see Lesson 1) <br/> <br/>
+
+					I also found I enjoy having conversations about code, talking about the problem solving, and finding ways of connecting humans friends to non-human friends. I enjoyed the act of translation, whether from browser HTTP request to database query, or from meta-level conceptualizations of how the internet works to the nitty gritty of the bug you’re trying to stomp out. <br/> <br/>
+				</p>
+			</li>
+			<li>
+				<h3>LitShare</h3>
+				<p>
+					<span>Lesson 3</span>: Be willing to question things you thought you knew. 
+					<br/> <br/>
+				</p>
+				<p>
+					For this project, I worked in a team of three and we split both apps up into routes that each of us was in charge of. I was able to lead the conversation in my team about the big picture of what our apps should do and in what order. These are conversations I feel strong in. But perhaps more importantly, for this project, I was able to tackle something I had much less of an understanding of: authorization and authentication. <br/> <br/>
+
+					This part of the project left me mentally breathless and wishing for more time to puzzle over Python and Flask. Having written code in JavaScript for the past two months, I found many of the ways in which apps work in JavaScript/Express don't translate directly into Python/Flask. It might be something simple: sometimes it felt like nearly everything I needed to do in Python outside of pure data manipulation required downloading an additional module. Or it can be more complex, like figuring out exactly how to make the app do certain things only if the user is logged in. <br/> <br/>
+
+					Ultimately, once I took a moment to open myself up to the possibility that any Python solution for a problem may not be even remotely like a JavaScript solution, I found myself much more able to appreciate Python and Flask for what they are.
+				</p>
+			</li>
+		</ul>
 	</div>
 
 	<div id="interests">
@@ -129,19 +127,6 @@
 			<li>Another TED Talk, this time by Chris Abani, a poet and novelist I really admire. <a href="https://www.ted.com/talks/chris_abani_on_the_stories_of_africa">Telling Stories from Africa</a> reminds me of the power of representation, the importance of complicating your own thinking when it becomes too simple, and the possibility inherent in mistakes. *Note: has some NSFW language*</li><br/>
 			<li>Gustavo Dudamel leading the Sim&oacute;n Bol&iacute;var Symphony Orchestra in performing Mexican composer Arturo M&aacute;rquez's <a href="https://www.youtube.com/watch?v=ZXeWiixwEz4">Danz&oacute;n N&uacute;mero 2</a>. It's such a party! And watch Dudamel's curls go!</li>
 		</ul>
-	</div>
-
-	<div id="contact">
-		<h2>Contact</h2>
-		<form>
-			<input type="text" placeholder="Your Name"/>
-			<br/>
-			<input type="text" placeholder="Your Email" />
-			<br/>
-			<textarea height="50" width="100" placeholder="Your Message"></textarea>
-			<br/>
-			<button>Send</button>
-		</form>
 	</div>
 
 </body>
