@@ -1,32 +1,34 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link href="https://fonts.googleapis.com/css?family=Belleza|Lato&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lato|Roboto&display=swap" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<title>Fatima Gomez</title>
 </head>
 <body>
-	<nav>
-		<a href="#about">About</a>
-		<a href="#skills">Skills</a>
-		<a href="#projects">Projects</a>
-		<a href="#interests">Interests</a>
-		<a href="mailto:fatima3558@gmail.com">Contact</a>
-		<a href="public/fgomez-resume.pdf" download>Resume</a>
-	</nav>
-	<h1>Hello, I'm Fatima Gomez</h1>
-	<div id="about">
-		<p>
-			I'm a software engineer, language lover, student of structures, and champion of empathy. 
-			<br/> <br/>
-			I enjoy building software for all that it is: constant study, learning from and teaching others, and finding all of the nifty little keyboard shortcuts. 
-			<br/> <br/>
-			My background in creative writing, teaching, and social work frame the way I relate to people and society. I practice listening with empathy, sitting in complexity, and finding common ground whenever possible.
-			<br/> <br/>
-			I aspire to build digital tools that help people live better lives. So, how about it? 
-			<br/> <br/>
-			<a href="mailto:fatima3558@gmail.com">Let's build something together.</a>
-		</p>
+	<div id="header">
+		<nav>
+			<a href="#skills">Skills</a>
+			<a href="#projects">Projects</a>
+			<a href="#interests">Interests</a>
+			<a href="mailto:fatima3558@gmail.com">Contact</a>
+			<a href="public/fgomez-resume.pdf" download>Resume</a>
+		</nav>
+		<h1>Hello, I'm Fatima Gomez</h1>
+		<div id="about">
+			<p>
+				I'm a software engineer, language lover, student of structures, and champion of empathy. 
+				<br/> <br/>
+				I enjoy building software for all that it is: constant study, learning from and teaching others, and finding all of the nifty little keyboard shortcuts. 
+				<br/> <br/>
+				My background in creative writing, teaching, and social work frame the way I relate to people and society. I practice listening with empathy, sitting in complexity, and finding common ground whenever possible.
+				<br/> <br/>
+				I aspire to build digital tools that help people live better lives. So, how about it? 
+				<br/> <br/>
+				<a href="mailto:fatima3558@gmail.com">Let's build something together.</a>
+			</p>
+		</div>
+		&nbsp;
 	</div>
 
 	<div id="skills">
@@ -70,13 +72,15 @@
 		<h2>Projects</h2>
 		<ul class="projects">
 			<li>
-				<h3>Connect 4!</h3>
-				<p>
-					<span>Lesson 1</span>: Speak your interlocutor's language. 
-					<br/> <br/>
-				</p>
 				<div class="description">
-					<img src="public/connect4.png" />
+					<div class="title">
+						<h3>Connect4!</h3>
+						<p>
+							<span>Lesson 1</span>: Speak your interlocutor's language. 
+							<br/> <br/>
+						</p>
+						<img src="public/connect4.png" />
+					</div>
 					<p>
 						Patterns are patterns, and patterns usually have a mathematical basis for their pattern-y-ness. All you have to do is find the code that explains it in the most accurate and, hopefully, most elegant way possible.<br/> <br/>
 
@@ -87,15 +91,7 @@
 				</div>
 			</li>
 			<li>
-				<h3>Couch Potato</h3>
-				<p>
-					<span>Lesson 2</span>: Do what you love. <br/>
-					<span>Lesson 2a</span>: Find a way to help others appreciate what you love. <br/>
-					<span>Lesson 2b</span>: 'What you love' may not be just one thing.
-					<br/> <br/>
-				</p>
 				<div class="description">
-					<img src="public/couch-potato.png" />
 					<p>
 						While working on this full-stack MEN (Mongo, Express, Node.js) app, I took my first brief swim in the vast ocean that is back-end programming. And I loved it; or, more specifically, I loved building connections between the front end and the back end. <br/> <br/>
 
@@ -103,17 +99,28 @@
 
 						I also found I enjoy having conversations about code, talking about the problem solving, and finding ways of connecting humans friends to non-human friends. I enjoyed the act of translation, whether from browser HTTP request to database query, or from meta-level conceptualizations of how the internet works to the nitty gritty of the bug you’re trying to stomp out. <br/> <br/>
 					</p>
-					</p>
+					<div class="title">
+						<h3>Couch Potato</h3>
+						<p>
+							<span>Lesson 2</span>: Do what you love. <br/>
+							<span>Lesson 2a</span>: Find a way to help others appreciate what you love. <br/>
+							<span>Lesson 2b</span>: 'What you love' may not be just one thing.
+							<br/> <br/>
+						</p>
+						<img src="public/couch-potato.png" />
+					</div>
 				</div>
 			</li>
 			<li>
-				<h3>LitShare</h3>
-				<p>
-					<span>Lesson 3</span>: Be willing to question things you thought you knew. 
-					<br/> <br/>
-				</p>
 				<div class="description">
-					<img src="public/litshare.png" />
+					<div class="title">
+						<h3>LitShare</h3>
+						<p>
+							<span>Lesson 3</span>: Be willing to question things you thought you knew. 
+							<br/> <br/>
+						</p>
+						<img src="public/litshare.png" />
+					</div>
 					<p>
 						For this project, I worked in a team of three and we split both apps up into routes that each of us was in charge of. I was able to lead the conversation in my team about the big picture of what our apps should do and in what order. These are conversations I feel strong in. But perhaps more importantly, for this project, I was able to tackle something I had much less of an understanding of: authorization and authentication. <br/> <br/>
 

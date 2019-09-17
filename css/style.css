@@ -1,21 +1,17 @@
-/*font-family: 'Lato', sans-serif;
-font-family: 'Belleza', sans-serif;
-
 /* TEXT */
 p, a, ul, li {
 	font-family: 'Lato', sans-serif;
 }
 
-a {
-	color: #8D021F;
+h1, h2, h3, h4, a {
+	font-family: 'Roboto', sans-serif;
 }
 
-h1, h2, h3, h4 {
-	font-family: 'Belleza', sans-serif;
+p, a {
+	font-size: 18px;
 }
 
 h1 {
-	color: #8D021F;
 	font-size: 50px;
 	margin-bottom: 0;
 }
@@ -26,8 +22,17 @@ li {
 
 /* SECTIONS */
 body {
-	margin: 0 15%;
-	background-color: #F7F7F7;
+	width: 100%;
+}
+
+body > * {
+	padding: 0 15%;
+}
+
+#header {
+	margin-top: -10px;
+	margin-bottom: 5%;
+	background-color: #2a9988;
 }
 
 div h2 {
@@ -36,13 +41,26 @@ div h2 {
 
 /* Nav */
 nav {
+	padding-top: 10px;
 	display: flex;
 	justify-content: space-between;
 }
 
-nav > a {
+#header :not(nav) a {
+	color: #FFFFFF;
+}
+
+nav a {
 	text-transform: uppercase;
 	color: black;
+}
+
+a {
+	color: #2a9988;
+}
+
+ul {
+	padding-left: 0;
 }
 
 /* Flexbox sections */
@@ -61,14 +79,27 @@ nav > a {
 }
 
 /* Projects */
-.description img {
-	max-width: 50%;
-	object-fit: contain;
-	padding: 0 1%;
+.title {
+	min-width: 50%;
+	background-color: #C4E3DE;
 }
 
-.description p {
-	padding: 0 1%;
+.description > * {
+	padding: 0 2%;
+}
+
+.title img {
+	max-width: 100%;
+	object-fit: contain;
+}
+
+/* Projects */
+#projects li {
+	margin-bottom: 25px;
+}
+
+li p, a {
+	font-size: 16px;
 }
 
 /* Interests */
